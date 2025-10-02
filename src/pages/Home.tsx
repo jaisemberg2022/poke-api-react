@@ -37,7 +37,7 @@ export default function Home() {
 				<div className="bg-gray-900 flex flex-col p-8">
 					<div className="flex items-center justify-center gap-4 mb-6">
 						<a
-							href="https://github.com/jaisemberg2022/Rick_and_Morty_App_React.git"
+							href="https://github.com/jaisemberg2022/poke-api-react.git"
 							target="_blank"
 							rel="noopener noreferrer"
 							aria-label="GitHub"
