@@ -1,69 +1,31 @@
-# React + TypeScript + Vite
+### poke-api-App-react - Apicacion React con typescript (React + tailwind + vite)
+📚 **Descripción General**:
+poke-api-app-react es una aplicación hecha con React, TypeScript, Tailwind CSS y Vite. Apartir de la api publica de pokemon consume la data que permite filtrar pokemones de acuerdo a su nombre o tipo de elemento tambien cuenta con un "inicio de sesion" simple para mayor personalizacion de la aplicaicon.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🛠️ **Requisitos Previos**:
+Asegúrate de tener instalados los siguientes componentes:
 
-Currently, two official plugins are available:
+- node js v22.14.0
+- vite
+- Visual Studio 2022 o Visual Studio Code
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
+📦 **Dependencias**:
+Este proyecto utiliza los siguientes paquetes NuGet clave para la configuración de Entity Framework Core y el acceso a datos con SQL Server:
+````
+ "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "axios": "^1.12.2",
+    "lucide-react": "^0.544.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.1",
+    "tailwindcss": "^4.1.13"
   },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+  ````
+📥 **Instalación y Configuración**:
+1. Clonar el repositorio
+cd tu-repo
+2. Instalar dependencias
+npm install 
+3. Iniciar
+npm run dev
