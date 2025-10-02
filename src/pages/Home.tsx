@@ -29,7 +29,7 @@ export default function Home() {
 			<div className="w-full max-w-4xl bg-gray-800 rounded-2xl shadow-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
 				<div className="hidden md:flex p-0 max-h-[400px] overflow-hidden">
 					<img
-						src="public/img/pokeball.png"
+						src="/pokeball.png"
 						alt="Pokémon"
 						className="object-cover w-full h-full"
 					/>
