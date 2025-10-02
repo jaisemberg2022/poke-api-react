@@ -1,6 +1,5 @@
 import { Outlet } from 'react-router'
 import { useName } from '../hooks/useName'
-import { DynamicIcon } from 'lucide-react/dynamic'
 
 function MainLayout () {
   const { name, clearName } = useName();
