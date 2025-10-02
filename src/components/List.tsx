@@ -13,7 +13,7 @@ export default function List({
 }) {
 	return (
 		<div>
-			<div className="min-h-screen grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
+			<div className="min-h-dvh grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-4">
 				{pokemons &&
 					pokemons.map((pokemon) => (
 						<Link key={pokemon.name} to={`/dex/${pokemon.name}`}>
